@@ -25,7 +25,6 @@ Make sure you have the following set up:
 - Maven installed
 - Azure account
 - Resource Group and App Service Plan (can be created via Azure Portal)
-- App Service Web App (Linux)
 
 ---
 
