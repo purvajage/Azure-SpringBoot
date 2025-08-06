@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.DeleteMapping;
 
 @RestController
+
 @RequestMapping("/employees")
 public class EmployeeController {
 @Autowired
+
 private EmployeeRepo employeeRepo;
 @GetMapping("/getEmployee")
 public List<Employee> getAll(){
