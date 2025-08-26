@@ -26,7 +26,6 @@ public List<Employee> getAll(){
 public Employee create(@RequestBody Employee employee) {
     return employeeRepo.save(employee);
 }
-
 @PutMapping("/updateEmployee")
 public Employee update(@RequestBody Employee employee) {
     return employeeRepo.save(employee);
